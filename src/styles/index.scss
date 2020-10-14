@@ -1,13 +1,21 @@
 @import "~bootstrap/scss/bootstrap.scss";
+body{
+    background: red;
+}
+#container{
+    color: red;
+    margin-top: 50px;
+    background: black;
+    box-shadow: 0px 15px 20px black;
+    height: 650px;
+    width: 800px;
+    border-radius: 20px;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.active {
+    box-shadow: 5px 5px 5px 5px  red;
+}
+.song:hover{
+    background: blue;
+}
